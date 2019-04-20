@@ -4,10 +4,10 @@
 #
 Name     : perl-Email-MessageID
 Version  : 1.406
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Email-MessageID-1.406.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Email-MessageID-1.406.tar.gz
-Summary  : 'Generate world unique message-ids.'
+Summary  : Generate world unique message-ids.
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-Email-MessageID-license = %{version}-%{release}
@@ -22,6 +22,7 @@ Generate world unique message-ids.
 Summary: dev components for the perl-Email-MessageID package.
 Group: Development
 Provides: perl-Email-MessageID-devel = %{version}-%{release}
+Requires: perl-Email-MessageID = %{version}-%{release}
 
 %description dev
 dev components for the perl-Email-MessageID package.
