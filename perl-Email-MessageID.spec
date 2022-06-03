@@ -4,7 +4,7 @@
 #
 Name     : perl-Email-MessageID
 Version  : 1.406
-Release  : 22
+Release  : 23
 URL      : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Email-MessageID-1.406.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Email-MessageID-1.406.tar.gz
 Summary  : 'Generate world unique message-ids.'
@@ -97,4 +97,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Email/MessageID.pm
+/usr/lib/perl5/*
