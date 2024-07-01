@@ -5,7 +5,7 @@
 #
 Name     : perl-Email-MessageID
 Version  : 1.408
-Release  : 28
+Release  : 29
 URL      : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Email-MessageID-1.408.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Email-MessageID-1.408.tar.gz
 Summary  : 'Generate world unique message-ids.'
